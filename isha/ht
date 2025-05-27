@@ -23,3 +23,18 @@
     </div>
 </body>
 </html>
+
+dcdcec
+ <div class="input-box">
+    <select required>
+        <option value="" disabled selected>Select Faculty</option>
+        <option value="bca">BCA</option>
+        <option value="csit">CSIT</option>
+        <option value="bim">BIM</option>
+    </select>
+    <i class="fas fa-graduation-cap"></i>
+</div>
+
+<div class="input-box">
+    <input type="date" required>
+    <i class="fas fa-calendar"></i>

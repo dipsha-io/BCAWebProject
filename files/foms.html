@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form in HTML and CSS | CodeLab</title>
+    <link rel="stylesheet" href="../css/css/foms.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">  
+            <h1>Registration Form</h1>
+            
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>  
+                <i class="fas fa-user"></i>
+            </div>
+            
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>  
+                <i class="fas fa-lock-alt"></i>
+            </div>
+            
+            <div class="input-box">
+                <select name="faculty" required>
+                    <option value="" disabled selected>Select Faculty</option>
+                    <option value="bca">BCA (Bachelor in Computer Application)</option>
+                    <option value="csit">CSIT (Computer Science & IT)</option>
+                    <option value="bim">BIM (Bachelor in Information Management)</option>
+                </select>
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            
+            <div class="input-box">
+                <input type="date" name="dob" placeholder="Date of Birth" required>  
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            
+            <div class="remember-forget">
+                <label><input type="checkbox"> Remember me</label>  
+                <a href="#">Forgot password?</a>
+            </div>
+            
+            <button type="submit" class="btn">Register</button>
+            
+            <div class="register-link">
+                <p>Already have an account? <a href="#">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
